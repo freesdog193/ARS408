@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    resize(1600, 1200);
+    resize(1600, 1100);
     user = new CanUser(DEF_DEV_INDEX, DEF_USE_CAN_NUM, DEF_SEND_TYPE, DEF_SEND_FRAMES,
                        DEF_SEND_TIMES, DEF_SEND_DELAY);
     reciever = new CanThread();
